@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+#container{
+	height: 800px;
+	width: 100%;
+}
+
+#text{
+	color: #FCFEB6;
+}
+
+@keyframes keyframeThing{
+	0% {opacity: 1;}
+	70% {background-color: #F6FE01;}
+	100% {top: 0px;}
+	100% {opacity: 0;}
+}
+
+.divClass{
+	animation: keyframeThing 4s;
+	opacity: 0;
+}
